@@ -1,0 +1,52 @@
+body {
+  background: #f8f4ff;
+  font-family: "Euclid Circular A", "Poppins";
+}
+
+progress {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  border: none;
+  background: transparent;
+}
+
+progress::-webkit-progress-bar {
+  background: #ffffff;
+}
+
+progress::-webkit-progress-value {
+  background-color: #8f44fd;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav h1 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section:nth-child(even) {
+  background: linear-gradient(to top, #b044fd, #8f44fd);
+  color: #f7f7f7;
+}
